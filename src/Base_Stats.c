@@ -515,7 +515,7 @@ const struct BaseStats gBaseStats[] =
 		.baseSpDefense = 35,
 		.baseSpeed = 56,
 		.type1 = TYPE_FLYING,
-		.type2 = TYPE_NONE,
+		.type2 = TYPE_FLYING,
 		.catchRate = 255,
 		.expYield = 55,
 		.evYield_HP = 0,
@@ -548,7 +548,7 @@ const struct BaseStats gBaseStats[] =
 		.baseSpDefense = 50,
 		.baseSpeed = 71,
 		.type1 = TYPE_FLYING,
-		.type2 = TYPE_NONE,
+		.type2 = TYPE_FLYING,
 		.catchRate = 120,
 		.expYield = 113,
 		.evYield_HP = 0,
@@ -10435,7 +10435,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_THICKFAT,
 		.ability2 = ABILITY_OBLIVIOUS,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_ICEBODY
+		.hiddenAbility = ABILITY_ICEBODY,
 		.noFlip = TRUE,
 	},
 
@@ -10468,7 +10468,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_THICKFAT,
 		.ability2 = ABILITY_OBLIVIOUS,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_ICEBODY
+		.hiddenAbility = ABILITY_ICEBODY,
 		.noFlip = TRUE,
 	},
 
